@@ -43,7 +43,7 @@ namespace OrchardCore.Resources
                 .DefineScript("jQuery.slim")
                 .SetUrl("~/OrchardCore.Resources/Scripts/jquery.slim.min.js", "~/OrchardCore.Resources/Scripts/jquery.slim.js")
                 .SetCdn("https://code.jquery.com/jquery-3.7.0.slim.min.js", "https://code.jquery.com/jquery-3.7.0.slim.js")
-                .SetCdnIntegrity("9UvaO0iXgg7,sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr", "sha384-VL8kOjBfskeSJSSQ+WVg0FhbQBudbviBQz4N9owZTFBqbb30htL9q46oLaCYU4no")
+                .SetCdnIntegrity("sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr", "sha384-VL8kOjBfskeSJSSQ+WVg0FhbQBudbviBQz4N9owZTFBqbb30htL9q46oLaCYU4no")
                 .SetVersion("3.7.0");
 
             manifest
